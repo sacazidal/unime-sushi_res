@@ -1,6 +1,6 @@
 import { useCart } from "../../store/CartContext";
-import basketIcon from "/img/basket.svg";
-import rublesIcon from "/img/rubles.svg";
+import basketIcon from "/img/icons/basket.svg";
+import rublesIcon from "/img/icons/rubles.svg";
 
 const Basket = () => {
   const { totalItems, totalPrice } = useCart();
