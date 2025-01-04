@@ -103,6 +103,21 @@ import VegetableWok from "/img/Woks/VegetableWok.png";
 import WokWithChicken from "/img/Woks/WokWithChicken.png";
 import WokWithShrimp from "/img/Woks/WokWithShrimp.png";
 
+/* Пицца */
+import Margaret from "/img/Pizza/Margaret.png";
+import FourCheeses from "/img/Pizza/FourCheeses.png";
+import Hawaiian from "/img/Pizza/Hawaiian.png";
+import Pepperoni from "/img/Pizza/Pepperoni.png";
+import WithMushrooms from "/img/Pizza/WithMushrooms.png";
+import WithChicken from "/img/Pizza/WithChicken.png";
+import Carbonara from "/img/Pizza/Carbonara.png";
+import Barbecue from "/img/Pizza/Barbecue.png";
+import CheeseBaconMushrooms from "/img/Pizza/CheeseBaconMushrooms.png";
+import Vegan from "/img/Pizza/Vegan.png";
+import WithTuna from "/img/Pizza/WithTuna.png";
+import Artichoke from "/img/Pizza/Artichoke.png";
+import WithStrachatella from "/img/Pizza/WithStrachatella.png";
+
 /* Напитки */
 import CherryCherry from "/img/Drinks/CherryCherry.png";
 import GingerLemonade from "/img/Drinks/GingerLemonade.png";
@@ -1844,7 +1859,277 @@ export const wokItems = [
   },
 ];
 
-export const pizzaItems = [];
+export const pizzaItems = [
+  {
+    id: v4(),
+    title: "Маргарита",
+    structure:
+      "Соус фирменный томатный, сыр моцарелла, орегано.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle: "соус милка васаби 100 гр.",
+    weigth: "380 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: Margaret,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 349,
+    pastPrice: 529,
+    pastCurrency: pastCurrencyIcon,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "4 сыра",
+    structure: "Крем сыр, сливки, пармезан.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle: "соус милка васаби 100 гр.",
+    weigth: "390 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: FourCheeses,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 529,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Гавайская",
+    structure:
+      "Соус фирменный томатный, сыр моцарелла, ветчина, ананасы.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle: "соус милка васаби 100 гр.",
+    weigth: "480 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: Hawaiian,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 529,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Пепперони",
+    structure:
+      "Сыр моцарелла, пепперони, перец маринованный.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle: "соус милка васаби 100 гр.",
+    weigth: "470 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: Pepperoni,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 529,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "С грибами и ветчиной",
+    structure: "Соус фирменный томатный, грибы, ветчина.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle: "соус милка васаби 100 гр.",
+    weigth: "490 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: WithMushrooms,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 529,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "С курицей",
+    structure:
+      "Соус фирменный томатный, курица, перец маринованный.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle: "соус милка васаби 100 гр.",
+    weigth: "525 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: WithChicken,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 529,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Карбонара",
+    structure:
+      "Соус фирменный томатный, яйцо куриное, бекон.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle: "соус милка васаби 100 гр.",
+    weigth: "505 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: Carbonara,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 529,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Барбекю",
+    structure:
+      "Соус фирменный томатный, сыр моцарелла, лук репка, говядина, грибы, соус BBQ.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle: "соус милка васаби 100 гр.",
+    weigth: "520 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: Barbecue,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 629,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Сыр, бекон, грибы",
+    structure: "Крем сыр, сливки, пармезан, бекон, грибы.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle: "соус милка васаби 100 гр.",
+    weigth: "520 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: CheeseBaconMushrooms,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 629,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Веган",
+    structure:
+      "Соус фирменный томатный, грибы, перец маринованный, маслины, помидоры черри, орегано, лук.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle: "соус милка васаби 100 гр.",
+    weigth: "515 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: Vegan,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 629,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "С тунцом",
+    structure:
+      "Соус фирменный томатный, сыр моцарелла, лук, тунец, маслины, перец маринованный",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle: "соус милка васаби 100 гр.",
+    weigth: "508 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: WithTuna,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 629,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Артишок",
+    structure:
+      "Крем сыр, сливки, пармезан, крем из артишоков, крем из маслин.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle: "соус милка васаби 100 гр.",
+    weigth: "470 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: Artichoke,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 629,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Со страчателлой",
+    structure:
+      "Соус фирменный томатный, сыр моцарелла, сыр страчателла, маслины, орегано, помидоры черри.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle: "соус милка васаби 100 гр.",
+    weigth: "515 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: WithStrachatella,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 529,
+    pastPrice: 629,
+    pastCurrency: pastCurrencyIcon,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+];
 
 export const drinkItems = [
   {
