@@ -63,7 +63,7 @@ const MenuPage = () => {
           <Dops />
         </>
       ) : (
-        <div className="text-center font-montserrat text-xl font-semibold">
+        <div className="text-center font-montserrat text-xl font-semibold mb-96">
           Загрузка...
         </div>
       )}

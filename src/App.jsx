@@ -15,11 +15,7 @@ const App = () => {
       <CartProvider>
         <Header />
         <Routes>
-          <Route
-            index
-            element={<Navigate to="/home" replace />}
-          />
-          <Route path="/home" element={<Home />} />
+          <Route index element={<Home />} />
         </Routes>
         <Footer />
       </CartProvider>
