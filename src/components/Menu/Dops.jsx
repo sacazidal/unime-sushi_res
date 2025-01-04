@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { dopItems } from "../../constants/Index";
 import Sort from "../Sort";
-import SectionWrapper from "./SectionWrapper";
+//import SectionWrapper from "./SectionWrapper";
 import { SlMinus, SlPlus } from "react-icons/sl";
 import { useCart } from "../../store/CartContext";
 
@@ -45,7 +45,7 @@ const Dops = () => {
   });
 
   return (
-    <SectionWrapper id="допы">
+    <div className="py-10" id="допы">
       <Sort title="Допы" onSortChange={setSortType} />
       <div className="flex flex-wrap justify-between items-center">
         {sortedItems.map((item) => (
@@ -122,7 +122,7 @@ const Dops = () => {
           </div>
         ))}
       </div>
-    </SectionWrapper>
+    </div>
   );
 };
 

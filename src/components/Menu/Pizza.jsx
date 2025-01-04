@@ -1,5 +1,5 @@
 import Sort from "../Sort";
-import SectionWrapper from "./SectionWrapper";
+//import SectionWrapper from "./SectionWrapper";
 import { useState } from "react";
 import { pizzaItems } from "../../constants/Index";
 import { SlMinus, SlPlus } from "react-icons/sl";
@@ -45,7 +45,7 @@ const Pizza = () => {
   });
 
   return (
-    <SectionWrapper id={"пицца"}>
+    <div className="py-10" id={"пицца"}>
       <Sort title="Пицца" onSortChange={setSortType} />
       <div className="flex flex-wrap justify-between items-center">
         {sortedItems.map((item) => (
@@ -141,7 +141,7 @@ const Pizza = () => {
           </div>
         ))}
       </div>
-    </SectionWrapper>
+    </div>
   );
 };
 

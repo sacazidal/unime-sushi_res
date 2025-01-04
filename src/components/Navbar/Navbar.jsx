@@ -1,18 +1,13 @@
-import { useNavigate } from "react-router-dom";
 import { menuItems } from "../../constants/Index";
 import { scroller } from "react-scroll";
 
 const Navbar = () => {
-  const navigate = useNavigate();
-
   const handleScrollTo = (id) => {
     scroller.scrollTo(id, {
       duration: 500,
       smooth: true,
       //offset: -100,
     });
-
-    navigate(`#${id}`, { replace: true });
   };
 
   return (

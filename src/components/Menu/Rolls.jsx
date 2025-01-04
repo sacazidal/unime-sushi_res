@@ -1,5 +1,5 @@
 import Sort from "../Sort";
-import SectionWrapper from "./SectionWrapper";
+//import SectionWrapper from "./SectionWrapper";
 import { useState } from "react";
 import { rollItems } from "../../constants/Index";
 import { SlMinus, SlPlus } from "react-icons/sl";
@@ -45,7 +45,7 @@ const Rolls = () => {
   });
 
   return (
-    <SectionWrapper id={"роллы"}>
+    <div className="py-10" id={"роллы"}>
       <Sort title="Роллы" onSortChange={setSortType} />
       <div className="flex flex-wrap justify-between items-center">
         {sortedItems.map((item) => (
@@ -150,7 +150,7 @@ const Rolls = () => {
           </div>
         ))}
       </div>
-    </SectionWrapper>
+    </div>
   );
 };
 

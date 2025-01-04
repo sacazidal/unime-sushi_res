@@ -1,5 +1,5 @@
 import Sort from "../Sort";
-import SectionWrapper from "./SectionWrapper";
+//import SectionWrapper from "./SectionWrapper";
 import { useState } from "react";
 import { hotRolls } from "../../constants/Index";
 import { SlMinus, SlPlus } from "react-icons/sl";
@@ -45,7 +45,7 @@ const HotRolls = () => {
   });
 
   return (
-    <SectionWrapper id={"горячие-роллы"}>
+    <div className="py-10" id={"горячие-роллы"}>
       <Sort
         title="Горячие роллы"
         onSortChange={setSortType}
@@ -153,7 +153,7 @@ const HotRolls = () => {
           </div>
         ))}
       </div>
-    </SectionWrapper>
+    </div>
   );
 };
 
