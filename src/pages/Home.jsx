@@ -1,6 +1,6 @@
 import Banner from "../components/Banner";
 import MenuPage from "../components/Menu/MenuPage";
-import Navbar from "../components/Navbar/Navbar";
+import Navbar from "../components/Navbar";
 
 const Home = () => {
   return (

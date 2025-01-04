@@ -1,4 +1,4 @@
-import { menuItems } from "../../constants/Index";
+import { menuItems } from "../constants/Index";
 import { scroller } from "react-scroll";
 
 const Navbar = () => {

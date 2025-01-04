@@ -16,7 +16,7 @@ const Banner = () => {
   };
 
   return (
-    <div className="mb-36">
+    <div className="mb-20">
       <Slider {...settings}>
         {mainBanners.map((banner) => (
           <img

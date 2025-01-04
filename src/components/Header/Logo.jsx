@@ -7,7 +7,7 @@ const Logo = () => {
         <img src={LogoIcon} alt="logo" />
       </div>
       <div className="">
-        <h1 className="font-montserrat font-bold text-4xl text-black">
+        <h1 className="font-montserrat font-bold text-4xl text-black tracking-tighter">
           УНИМЭ СУШИ
         </h1>
       </div>
