@@ -70,7 +70,7 @@ const Snacks = () => {
               <div className="font-montserrat font-medium text-xxs">
                 {item.dopsTitle}
               </div>
-              <div className="font-montserrat font-medium text-xxs leading-none">
+              <div className="font-montserrat font-medium text-xxs leading-none min-w-60">
                 {item.dopsSubTitle}
               </div>
               <p className="font-montserrat text-xs font-medium text-gray-500 py-2">
@@ -98,9 +98,6 @@ const Snacks = () => {
                     <SlPlus className="w-4 h-4" />
                   </button>
                 </div>
-                <button className="font-montserrat font-medium text-xxs bg-orange-600 text-white rounded-xl px-3 py-1 ml-5">
-                  {item.countButton}
-                </button>
               </div>
               <div className="flex items-center gap-3">
                 <button

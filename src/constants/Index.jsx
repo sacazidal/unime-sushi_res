@@ -87,6 +87,17 @@ import Hiroshima from "/img/Sets/Hiroshima.png";
 import Yamato from "/img/Sets/Yamato.png";
 import TheRave from "/img/Sets/TheRave.png";
 
+/* Закуски */
+import TempuraShrimp from "/img/Snacks/TempuraShrimp.png";
+import Poker from "/img/Snacks/Poker.png";
+import SushirittoWithShrimp from "/img/Snacks/SushirittoWithShrimp.png";
+import SushirittoWithChicken from "/img/Snacks/SushirittoWithChicken.png";
+import TyakhanWithChicken from "/img/Snacks/TyakhanWithChicken.png";
+import TyakhanWithShrimp from "/img/Snacks/TyakhanWithShrimp.png";
+import ChukaSalad from "/img/Snacks/ChukaSalad.png";
+import Bakedmussels from "/img/Snacks/Bakedmussels.png";
+import SushirittoWithSalmon from "/img/Snacks/SushirittoWithSalmon.png";
+
 /* Допы */
 import imbirImg from "/img/Dops/imbir.png";
 import soySauce from "/img/Dops/soySauce.png";
@@ -169,7 +180,7 @@ export const menuItems = [
   },
   {
     id: 6,
-    title: "Wok",
+    title: "Вок",
   },
   {
     id: 7,
@@ -1619,16 +1630,254 @@ export const setItems = [
 export const snackItems = [
   {
     id: v4(),
-    title: "Эби Фурай",
+    title: "Креветки темпура",
     structure:
-      "Рис, нори, авокадо, лосось, креветки, творожный сыр, икра масаго, кляр, панировка.",
+      "Креветки обжаренные в кляре с остро-сладким соусом васаби милка.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle: "соус милка васаби 100 гр.",
+    weigth: "340 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: TempuraShrimp,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 499,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Покэ",
+    structure:
+      "Рис, перец, ростки сои, огурцы, имбирь маринованный, укроп, фирменный соус, кунжут, салат чука, авокадо.",
     dopsTitle: "Бесплатно:",
     dopsSubTitle:
-      "соевый соус 30 гр., имбирь 10 гр., васаби 5 гр.",
-    weigth: "205 гр. | 115 ккал",
-    countButton: "по 8шт.",
+      "соевый соус 120 гр., имбирь 30 гр., васаби 10 гр.",
+    weigth: "210 гр. | 115 ккал",
+    countButton: null,
     bgImg: bgImg,
-    itemImg: AbiFurai,
+    itemImg: Poker,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 199,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Суширитто с креветкой",
+    structure:
+      "Нори, рис, фирменный соус, овощная смесь, черри, хрустящий кляр, креветка.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle:
+      "соевый соус 80 гр., имбирь 30 гр., васаби 10 гр.",
+    weigth: "340 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: SushirittoWithShrimp,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 279,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Суширитто с курицей",
+    structure:
+      "Нори, рис, фирменный соус, овощная смесь, черри, хрустящий кляр, курица.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle:
+      "соевый соус 60 гр., имбирь 30 гр., васаби 10 гр.",
+    weigth: "330 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: SushirittoWithChicken,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 269,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Тяхан с курицей",
+    structure:
+      "Рис, фирменный соус, курица, кунжут,укроп, чеснок, хрустящий кляр, перец, имбирь маринованный.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle:
+      "соевый соус 60 гр., имбирь 30 гр., васаби 10 гр.",
+    weigth: "350 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: TyakhanWithChicken,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 249,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Тяхан с креветкой",
+    structure:
+      "Рис, фирменный соус, креветка, кунжут,укроп, чеснок, хрустящий кляр, перец, имбирь маринованный.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle:
+      "соевый соус 80 гр., имбирь 30 гр., васаби 10 гр.",
+    weigth: "350 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: TyakhanWithShrimp,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 279,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Чука салат",
+    structure:
+      "Салат Чука, ореховый соус, огурцы, лимон, перец.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle:
+      "соевый соус 120 гр., имбирь 60 гр., васаби 20 гр.",
+    weigth: "160 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: ChukaSalad,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 229,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Мидии запеченные",
+    structure:
+      "Мидии крупные запечённый в ракушках, фирменный соус",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle:
+      "соевый соус 60 гр., имбирь 30 гр., васаби 10 гр.",
+    weigth: "240 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: Bakedmussels,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 399,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Суширитто с лососем",
+    structure:
+      "Нори, рис, фирменный соус, овощная смесь, черри, хрустящий кляр, лосось.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle:
+      "соевый соус 80 гр., имбирь 30 гр., васаби 10 гр.",
+    weigth: "340 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: SushirittoWithSalmon,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 299,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+];
+
+export const wokItems = [
+  {
+    id: v4(),
+    title: "Вок овощной",
+    structure:
+      "Лапша удон, фирменный соус, овощная смесь, грибы шиитаке.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle: "соус милка васаби 100 гр.",
+    weigth: "230 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: TempuraShrimp,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 199,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+  {
+    id: v4(),
+    title: "Вок с курицей",
+    structure:
+      "Лапша удон, фирменный соус, овощная смесь, грибы шитаке, курица.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle: "соус милка васаби 100 гр.",
+    weigth: "270 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: TempuraShrimp,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 269,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+  {
+    id: v4(),
+    title: "Вок с креветкой",
+    structure:
+      "Лапша удон, фирменный соус, овощная смесь, грибы шитаке, креветки.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle: "соус милка васаби 100 гр.",
+    weigth: "270 гр. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: TempuraShrimp,
     basketIcon: basketIcon,
     basketIconHover: basketIconHover,
     button: "Купить",
