@@ -11,7 +11,7 @@ import { CartProvider } from "./store/CartContext";
 
 const App = () => {
   return (
-    <BrowserRouter basename="/unime-sushi">
+    <BrowserRouter /*basename="/unime-sushi"*/>
       <CartProvider>
         <Header />
         <Routes>
