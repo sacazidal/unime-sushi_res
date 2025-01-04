@@ -98,6 +98,16 @@ import ChukaSalad from "/img/Snacks/ChukaSalad.png";
 import Bakedmussels from "/img/Snacks/Bakedmussels.png";
 import SushirittoWithSalmon from "/img/Snacks/SushirittoWithSalmon.png";
 
+/* Вок */
+import VegetableWok from "/img/Woks/VegetableWok.png";
+import WokWithChicken from "/img/Woks/WokWithChicken.png";
+import WokWithShrimp from "/img/Woks/WokWithShrimp.png";
+
+/* Напитки */
+import CherryCherry from "/img/Drinks/CherryCherry.png";
+import GingerLemonade from "/img/Drinks/GingerLemonade.png";
+import PassionFruitLemonade from "/img/Drinks/PassionFruitLemonade.png";
+
 /* Допы */
 import imbirImg from "/img/Dops/imbir.png";
 import soySauce from "/img/Dops/soySauce.png";
@@ -212,61 +222,6 @@ export const mainBanners = [
   {
     id: 5,
     img: BannerImg5,
-  },
-];
-
-export const dopItems = [
-  {
-    id: v4(),
-    title: "Соевый соус",
-    weigth: "50 гр. | 115 ккал",
-    bgImg: bgImg,
-    itemImg: soySauce,
-    basketIcon: basketIcon,
-    basketIconHover: basketIconHover,
-    button: "Купить",
-    price: 19,
-    currency: rublesIcon,
-    popularity: Math.random(),
-  },
-  {
-    id: v4(),
-    title: "Васаби",
-    weigth: "10 гр. | 115 ккал",
-    bgImg: bgImg,
-    itemImg: wasabi,
-    basketIcon: basketIcon,
-    basketIconHover: basketIconHover,
-    button: "Купить",
-    price: 19,
-    currency: rublesIcon,
-    popularity: Math.random(),
-  },
-  {
-    id: v4(),
-    title: "Имбирь",
-    weigth: "30 гр. | 115 ккал",
-    bgImg: bgImg,
-    itemImg: imbirImg,
-    basketIcon: basketIcon,
-    basketIconHover: basketIconHover,
-    button: "Купить",
-    price: 25,
-    currency: rublesIcon,
-    popularity: Math.random(),
-  },
-  {
-    id: v4(),
-    title: "Соус милка-васаби",
-    weigth: "50 гр. | 115 ккал",
-    bgImg: bgImg,
-    itemImg: milkaWasabiSauce,
-    basketIcon: basketIcon,
-    basketIconHover: basketIconHover,
-    button: "Купить",
-    price: 59,
-    currency: rublesIcon,
-    popularity: Math.random(),
   },
 ];
 
@@ -1837,7 +1792,7 @@ export const wokItems = [
     weigth: "230 гр. | 115 ккал",
     countButton: null,
     bgImg: bgImg,
-    itemImg: TempuraShrimp,
+    itemImg: VegetableWok,
     basketIcon: basketIcon,
     basketIconHover: basketIconHover,
     button: "Купить",
@@ -1857,7 +1812,7 @@ export const wokItems = [
     weigth: "270 гр. | 115 ккал",
     countButton: null,
     bgImg: bgImg,
-    itemImg: TempuraShrimp,
+    itemImg: WokWithChicken,
     basketIcon: basketIcon,
     basketIconHover: basketIconHover,
     button: "Купить",
@@ -1877,13 +1832,130 @@ export const wokItems = [
     weigth: "270 гр. | 115 ккал",
     countButton: null,
     bgImg: bgImg,
-    itemImg: TempuraShrimp,
+    itemImg: WokWithShrimp,
     basketIcon: basketIcon,
     basketIconHover: basketIconHover,
     button: "Купить",
     price: 289,
     pastPrice: null,
     pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+];
+
+export const pizzaItems = [];
+
+export const drinkItems = [
+  {
+    id: v4(),
+    title: "Вишня-черешня",
+    structure: "Сок вишни, сок черешни, вода.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle: "соус милка васаби 100 гр.",
+    weigth: "0,5 л. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: CherryCherry,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 159,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+  {
+    id: v4(),
+    title: "Лимонад Имбирь",
+    structure: "Имбирный сок, вода.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle: "соус милка васаби 100 гр.",
+    weigth: "0,5 л. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: GingerLemonade,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 159,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+  {
+    id: v4(),
+    title: "Лимонад Маракуйя",
+    structure: "Сок маракуйя, вода.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle: "соус милка васаби 100 гр.",
+    weigth: "0,5 л. | 115 ккал",
+    countButton: null,
+    bgImg: bgImg,
+    itemImg: PassionFruitLemonade,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 159,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+];
+
+export const dopItems = [
+  {
+    id: v4(),
+    title: "Соевый соус",
+    weigth: "50 гр. | 115 ккал",
+    bgImg: bgImg,
+    itemImg: soySauce,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 19,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+  {
+    id: v4(),
+    title: "Васаби",
+    weigth: "10 гр. | 115 ккал",
+    bgImg: bgImg,
+    itemImg: wasabi,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 19,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+  {
+    id: v4(),
+    title: "Имбирь",
+    weigth: "30 гр. | 115 ккал",
+    bgImg: bgImg,
+    itemImg: imbirImg,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 25,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+  {
+    id: v4(),
+    title: "Соус милка-васаби",
+    weigth: "50 гр. | 115 ккал",
+    bgImg: bgImg,
+    itemImg: milkaWasabiSauce,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 59,
     currency: rublesIcon,
     popularity: Math.random(),
   },
