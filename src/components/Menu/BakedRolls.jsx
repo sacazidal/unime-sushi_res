@@ -54,7 +54,7 @@ const BakedRolls = () => {
         {sortedItems.map((item) => (
           <div
             key={item.id}
-            className="relative mb-5 h-[280px]"
+            className="relative mb-5 xl:h-[280px] lg:h-[260px] md:h-[240px] sm:h-[220px] h-[200px] xl:w-[412px] lg:w-[340px] md:w-[270px] sm:w-[240px] xs:w-[190px] w-[140px] border-2 border-gray-200 rounded-xl"
           >
             <img src={item.bgImg} alt={item.title} />
             <div className="flex items-center absolute top-2 right-0 h-[280px]">

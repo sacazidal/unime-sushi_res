@@ -7,7 +7,7 @@ import LocationNumber from "./LocationNumber";
 const Header = () => {
   return (
     <header className="my-7">
-      <div className="max-w-screen-xl mx-auto flex justify-between items-center">
+      <div className="max-w-screen-xl mx-auto flex items-center justify-between ">
         <div className="flex gap-10 justify-between items-center">
           {/* Кнопка USER */}
           <BtnSignUp />

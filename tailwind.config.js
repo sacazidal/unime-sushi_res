@@ -15,12 +15,8 @@ export default {
       lineHeight: {
         xs: "0.02em",
       },
-      container: {
-        "2xl": "1280px",
-        xl: "1024px",
-        lg: "768px",
-        md: "640px",
-        sm: "480px",
+      screens: {
+        xs: "480px",
       },
     },
   },
