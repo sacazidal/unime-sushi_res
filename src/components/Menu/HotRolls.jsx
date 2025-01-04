@@ -70,7 +70,7 @@ const HotRolls = () => {
               <div className="font-montserrat font-medium text-xxs">
                 {item.dopsTitle}
               </div>
-              <div className="font-montserrat font-medium text-xxs">
+              <div className="font-montserrat font-medium text-xxs leading-none max-w-60">
                 {item.dopsSubTitle}
               </div>
               <p className="font-montserrat text-xs font-medium text-gray-500 py-2">
