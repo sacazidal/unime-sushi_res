@@ -3,52 +3,65 @@ import { FaYoutube, FaVk } from "react-icons/fa";
 
 import { v4 } from "uuid";
 
-import BannerImg1 from "/img/banner1.png";
-import BannerImg2 from "/img/banner2.png";
-import BannerImg3 from "/img/banner3.jpg";
-import BannerImg4 from "/img/banner4.jpg";
-import BannerImg5 from "/img/banner5.jpg";
+import BannerImg1 from "/img/BannerWrap/banner1.png";
+import BannerImg2 from "/img/BannerWrap/banner2.png";
+import BannerImg3 from "/img/BannerWrap/banner3.jpg";
+import BannerImg4 from "/img/BannerWrap/banner4.jpg";
+import BannerImg5 from "/img/BannerWrap/banner5.jpg";
 
 import bgImg from "/img/card.png";
-import imbirImg from "/img/imbir.png";
-import soySauce from "/img/soySauce.png";
-import wasabi from "/img/wasabi.png";
-import milkaWasabiSauce from "/img/milkaWasabiSauce.png";
 
-import rublesIcon from "/img/rubles.svg";
-import pastCurrencyIcon from "/img/pastCurrency.svg";
+/* Допы */
+import imbirImg from "/img/Dops/imbir.png";
+import soySauce from "/img/Dops/soySauce.png";
+import wasabi from "/img/Dops/wasabi.png";
+import milkaWasabiSauce from "/img/Dops/milkaWasabiSauce.png";
 
-import basketIcon from "/img/basketIcon.svg";
-import basketIconHover from "/img/basketIconHover.svg";
+import rublesIcon from "/img/icons/rubles.svg";
+import pastCurrencyIcon from "/img/icons/pastCurrency.svg";
 
-// Роллы
-import cucumberRoll from "/img/cucumberRoll.png";
-import avocadoRoll from "/img/avocadoRoll.png";
-import creamySesameSeeds from "/img/creamySesameSeeds.png";
-import eelRoll from "/img/eelRoll.png";
-import tunaRoll from "/img/tunaRoll.png";
-import SalmonRoll from "/img/SalmonRoll.png";
-import CreamyTobiko from "/img/CreamyTobiko.png";
-import Philadelphia from "/img/Philadelphia.png";
-import PhiladelphiaLite from "/img/PhiladelphiaLite.png";
-import PhiladelphiaCheese from "/img/PhiladelphiaCheese.png";
-import PhiladelphiaUnagi from "/img/PhiladelphiaUnagi.png";
-import UnagiLite from "/img/UnagiLite.png";
-import California from "/img/California.png";
-import CaliforniaWithSalmon from "/img/CaliforniaWithSalmon.png";
-import CaliforniaWithShrimp from "/img/CaliforniaWithShrimp.png";
-import SyakeKani from "/img/SyakeKani.png";
-import Maguro from "/img/Maguro.png";
-import Strawberry from "/img/Strawberry.png";
-import Tama from "/img/Tama.png";
-import SpicyWithShrimpAndAvocado from "/img/SpicyWithShrimpAndAvocado.png";
-import SpicySalmon from "/img/SpicySalmon.png";
-import SpicyTuna from "/img/SpicyTuna.png";
-import SpicyWithEel from "/img/SpicyWithEel.png";
-import SpicyWithSnowCrabAndCucumber from "/img/SpicyWithSnowCrabAndCucumber.png";
-import Tutsurai from "/img/Tutsurai.png";
-import Canada from "/img/Canada.png";
-import Indesi from "/img/Indesi.png";
+import basketIcon from "/img/icons/basketIcon.svg";
+import basketIconHover from "/img/icons/basketIconHover.svg";
+
+/* Роллы */
+import cucumberRoll from "/img/Rolls/cucumberRoll.png";
+import avocadoRoll from "/img/Rolls/avocadoRoll.png";
+import creamySesameSeeds from "/img/Rolls/creamySesameSeeds.png";
+import eelRoll from "/img/Rolls/eelRoll.png";
+import tunaRoll from "/img/Rolls/tunaRoll.png";
+import SalmonRoll from "/img/Rolls/SalmonRoll.png";
+import CreamyTobiko from "/img/Rolls/CreamyTobiko.png";
+import Philadelphia from "/img/Rolls/Philadelphia.png";
+import PhiladelphiaLite from "/img/Rolls/PhiladelphiaLite.png";
+import PhiladelphiaCheese from "/img/Rolls/PhiladelphiaCheese.png";
+import PhiladelphiaUnagi from "/img/Rolls/PhiladelphiaUnagi.png";
+import UnagiLite from "/img/Rolls/UnagiLite.png";
+import California from "/img/Rolls/California.png";
+import CaliforniaWithSalmon from "/img/Rolls/CaliforniaWithSalmon.png";
+import CaliforniaWithShrimp from "/img/Rolls/CaliforniaWithShrimp.png";
+import SyakeKani from "/img/Rolls/SyakeKani.png";
+import Maguro from "/img/Rolls/Maguro.png";
+import Strawberry from "/img/Rolls/Strawberry.png";
+import Tama from "/img/Rolls/Tama.png";
+import SpicyWithShrimpAndAvocado from "/img/Rolls/SpicyWithShrimpAndAvocado.png";
+import SpicySalmon from "/img/Rolls/SpicySalmon.png";
+import SpicyTuna from "/img/Rolls/SpicyTuna.png";
+import SpicyWithEel from "/img/Rolls/SpicyWithEel.png";
+import SpicyWithSnowCrabAndCucumber from "/img/Rolls/SpicyWithSnowCrabAndCucumber.png";
+import Tutsurai from "/img/Rolls/Tutsurai.png";
+import Canada from "/img/Rolls/Canada.png";
+import Indesi from "/img/Rolls/Indesi.png";
+
+/* Запеченные роллы */
+import WithASnowCrab from "/img/BakedRolls/WithASnowCrab.png";
+import WithShrimp from "/img/BakedRolls/WithShrimp.png";
+import WithSalmon from "/img/BakedRolls/WithSalmon.png";
+import WithAnEel from "/img/BakedRolls/WithAnEel.png";
+import MurugaiOr from "/img/BakedRolls/MurugaiOr.png";
+import Kaniyaki from "/img/BakedRolls/Kaniyaki.png";
+import AChickenBag from "/img/BakedRolls/AChickenBag.png";
+import TheSalamander from "/img/BakedRolls/TheSalamander.png";
+import BackedTutsurai from "/img/BakedRolls/Tutsurai.png";
 
 export const cityName = [
   {
@@ -770,6 +783,340 @@ export const rollItems = [
     basketIconHover: basketIconHover,
     button: "Купить",
     price: 199,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+];
+
+export const bakedRollItems = [
+  {
+    id: v4(),
+    title: "С снежным крабом",
+    structure:
+      "Соус фирменный, нори, снежный краб, рис, огурцы, икра масаго, лосось.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle:
+      "соевый соус 30 гр., имбирь 10 гр., васаби 5 гр.",
+    weigth: "185 гр. | 115 ккал",
+    countButton: "по 8шт.",
+    bgImg: bgImg,
+    itemImg: WithASnowCrab,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 259,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "C креветкой",
+    structure:
+      "Cоус фирменный, нори, креветка, рис, огурцы масаго, творожный сыр, авокадо, лосось.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle:
+      "соевый соус 30 гр., имбирь 10 гр., васаби 5 гр.",
+    weigth: "190 гр. | 115 ккал",
+    countButton: "по 8шт.",
+    bgImg: bgImg,
+    itemImg: WithShrimp,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 319,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "C лососем",
+    structure:
+      "Рис, креветка, соус фирменный, икра масаго, огурцы, лосось, нори, спайси соус.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle:
+      "соевый соус 30 гр., имбирь 10 гр., васаби 5 гр.",
+    weigth: "190 гр. | 115 ккал",
+    countButton: "по 8шт.",
+    bgImg: bgImg,
+    itemImg: WithSalmon,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 319,
+    pastPrice: 359,
+    pastCurrency: pastCurrencyIcon,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "C угрём",
+    structure:
+      "Рис, сыр сливочный, угорь, соус фирменный, огурцы, креветка, нори.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle:
+      "соевый соус 30 гр., имбирь 10 гр., васаби 5 гр.",
+    weigth: "185 гр. | 115 ккал",
+    countButton: "по 8шт.",
+    bgImg: bgImg,
+    itemImg: WithAnEel,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 319,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Муругай Яки",
+    structure:
+      "Рис, мидии, соус фирменный, огурцы, снежный краб, нори, терияки, чернослив, лук жареный, спайси соус.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle:
+      "соевый соус 30 гр., имбирь 10 гр., васаби 5 гр.",
+    weigth: "215 гр. | 115 ккал",
+    countButton: "по 8шт.",
+    bgImg: bgImg,
+    itemImg: MurugaiOr,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 249,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Канияки",
+    structure:
+      "Рис, угорь, фирменный соус, авокадо, снежный краб, нори, лук жареный, терияки, спайси соус.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle:
+      "соевый соус 30 гр., имбирь 10 гр., васаби 5 гр.",
+    weigth: "190 гр. | 115 ккал",
+    countButton: "по 8шт.",
+    bgImg: bgImg,
+    itemImg: Kaniyaki,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 309,
+    pastPrice: 339,
+    pastCurrency: pastCurrencyIcon,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Сумоку Чикен",
+    structure:
+      "Рис, творожный сыр, курица, соус фирменный, огурец, чернослив, нори, лук жареный, мидии.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle:
+      "соевый соус 30 гр., имбирь 10 гр., васаби 5 гр.",
+    weigth: "230 гр. | 115 ккал",
+    countButton: "по 8шт.",
+    bgImg: bgImg,
+    itemImg: AChickenBag,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 249,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Саламандер",
+    structure:
+      "Рис, творожный сыр, огурец, снежный краб, нори, лосось.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle:
+      "соевый соус 30 гр., имбирь 10 гр., васаби 5 гр.",
+    weigth: "220 гр. | 115 ккал",
+    countButton: "по 8шт.",
+    bgImg: bgImg,
+    itemImg: TheSalamander,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 319,
+    pastPrice: 349,
+    pastCurrency: pastCurrencyIcon,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Туцурай",
+    structure:
+      "Рис, нори, лосось, угорь, авокадо, сыр творожный, икра масаго, спайси соус.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle:
+      "соевый соус 30 гр., имбирь 10 гр., васаби 5 гр.",
+    weigth: "210 гр. | 115 ккал",
+    countButton: "по 8шт.",
+    bgImg: bgImg,
+    itemImg: BackedTutsurai,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 419,
+    pastPrice: 499,
+    pastCurrency: pastCurrencyIcon,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+];
+
+export const hotRolls = [
+  {
+    id: v4(),
+    title: "Эби Фурай",
+    structure:
+      "Рис, нори, авокадо, лосось, креветки, творожный сыр, икра масаго, кляр, панировка.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle:
+      "соевый соус 30 гр., имбирь 10 гр., васаби 5 гр.",
+    weigth: "205 гр. | 115 ккал",
+    countButton: "по 8шт.",
+    bgImg: bgImg,
+    itemImg: WithSalmon,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 289,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Восходящее солнце",
+    structure:
+      "Рис, нори, кимчи, угорь, креветки, огурец, кляр, панировка, кимчи соус.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle:
+      "соевый соус 30 гр., имбирь 10 гр., васаби 5 гр.",
+    weigth: "255 гр. | 115 ккал",
+    countButton: "по 8шт.",
+    bgImg: bgImg,
+    itemImg: WithSalmon,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 319,
+    pastPrice: 349,
+    pastCurrency: pastCurrencyIcon,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Хотосамон",
+    structure:
+      "Рис, нори, лосось, креветка, тунец, кляр, панировка, огурцы, творожный сыр.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle:
+      "соевый соус 30 гр., имбирь 10 гр., васаби 5 гр.",
+    weigth: "220 гр. | 115 ккал",
+    countButton: "по 8шт.",
+    bgImg: bgImg,
+    itemImg: WithSalmon,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 220,
+    pastPrice: 299,
+    pastCurrency: pastCurrencyIcon,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Утсубо",
+    structure:
+      "Рис, нори, лосось, авокадо, икра масаго, кляр, панировка, спайси соус.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle:
+      "соевый соус 30 гр., имбирь 10 гр., васаби 5 гр.",
+    weigth: "220 гр. | 115 ккал",
+    countButton: "по 8шт.",
+    bgImg: bgImg,
+    itemImg: WithSalmon,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 299,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Канетцу",
+    structure:
+      "Рис, нори, лосось, огурец, снежный краб, кляр, панировка, творожный сыр, спайси соус.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle:
+      "соевый соус 30 гр., имбирь 10 гр., васаби 5 гр.",
+    weigth: "220 гр. | 115 ккал",
+    countButton: "по 8шт.",
+    bgImg: bgImg,
+    itemImg: WithSalmon,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 269,
+    pastPrice: null,
+    pastCurrency: null,
+    currency: rublesIcon,
+    popularity: Math.random(),
+  },
+
+  {
+    id: v4(),
+    title: "Инпура",
+    structure:
+      "Рис, нори, виола, ветчина из индейки, салат айсберг, перец болгарский, жаренный лук, кляр.",
+    dopsTitle: "Бесплатно:",
+    dopsSubTitle:
+      "соевый соус 30 гр., имбирь 10 гр., васаби 5 гр.",
+    weigth: "280 гр. | 115 ккал",
+    countButton: "по 8шт.",
+    bgImg: bgImg,
+    itemImg: WithSalmon,
+    basketIcon: basketIcon,
+    basketIconHover: basketIconHover,
+    button: "Купить",
+    price: 249,
     pastPrice: null,
     pastCurrency: null,
     currency: rublesIcon,

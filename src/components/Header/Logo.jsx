@@ -1,4 +1,4 @@
-import LogoIcon from "/img/faivicon.svg";
+import LogoIcon from "/img/icons/faivicon.svg";
 
 const Logo = () => {
   return (
