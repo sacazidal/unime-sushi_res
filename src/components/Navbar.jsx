@@ -3,11 +3,21 @@ import { scroller } from "react-scroll";
 
 const Navbar = () => {
   const handleScrollTo = (id) => {
-    scroller.scrollTo(id, {
-      duration: 500,
-      smooth: true,
-      //offset: -100,
-    });
+    const scrollToElement = () => {
+      const targetElement = document.getElementById(id);
+
+      if (targetElement) {
+        scroller.scrollTo(id, {
+          duration: 500,
+          smooth: true,
+          //offset: -100,
+        });
+      } else {
+        setTimeout(scrollToElement, 100);
+      }
+    };
+
+    scrollToElement();
   };
 
   return (
