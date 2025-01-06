@@ -69,7 +69,7 @@ const ProductList = ({ items, sortType, title }) => {
                 {item.title}
               </h3>
               {item.structure && (
-                <p className="py-2 font-montserrat font-medium text-xs max-w-52 hidden lg:block">
+                <p className="py-2 font-montserrat font-medium text-xs max-w-52 hidden lg:block leading-none">
                   {item.structure}
                 </p>
               )}
