@@ -10,16 +10,16 @@ const Sort = ({ title, onSortChange }) => {
   };
 
   return (
-    <div className="pb-10 flex flex-col gap-1">
-      <h2 className="font-montserrat font-semibold text-2xl">
+    <div className="pt-0 sm:pt-10 flex flex-col gap-1">
+      <h2 className="font-montserrat font-semibold text-sm xs:text-lg sm:text-2xl">
         {title}
       </h2>
       <div className="flex gap-5">
-        <div className="font-montserrat font-medium text-xs">
+        <div className="font-montserrat font-medium text-[10px] sm:text-xs">
           Сортировать
         </div>
         <button
-          className={`font-montserrat font-medium text-xs ${
+          className={`font-montserrat font-medium text-[10px] sm:text-xs ${
             activeButton === "price"
               ? "text-black"
               : "text-zinc-400"
@@ -29,7 +29,7 @@ const Sort = ({ title, onSortChange }) => {
           по цене
         </button>
         <button
-          className={`font-montserrat font-medium text-xs transition-all ${
+          className={`font-montserrat font-medium text-[10px] sm:text-xs transition-all ${
             activeButton === "popularity"
               ? "text-black"
               : "text-zinc-400"

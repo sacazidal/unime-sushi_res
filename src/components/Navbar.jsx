@@ -8,7 +8,7 @@ const Navbar = () => {
 
       if (targetElement) {
         scroller.scrollTo(id, {
-          duration: 500,
+          duration: 1500,
           smooth: true,
           //offset: -100,
         });
@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <ul className="flex items-center justify-between border-t-2">
+      <ul className="hidden lg:flex items-center justify-between border-t-2">
         {menuItems.map((item) => (
           <li
             className="font-montserrat font-semibold text-base "

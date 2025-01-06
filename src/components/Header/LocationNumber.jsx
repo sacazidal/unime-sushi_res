@@ -21,7 +21,7 @@ const LocationNumber = () => {
   };
 
   return (
-    <div className="flex flex-col">
+    <div className="hidden lg:flex flex-col">
       <div className="flex flex-col items-center">
         <button
           className="flex items-center relative"

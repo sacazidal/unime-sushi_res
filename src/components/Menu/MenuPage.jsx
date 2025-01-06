@@ -74,7 +74,7 @@ const MenuPage = () => {
               `Элемент с id "${decodedHash}" не найден.`,
             );
           }
-        }, 100);
+        }, 50);
 
         return () => clearTimeout(timer);
       }

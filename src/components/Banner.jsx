@@ -16,14 +16,14 @@ const Banner = () => {
   };
 
   return (
-    <div className="mb-20">
+    <div className="lg:mb-20 sm:mb-10 mb-5">
       <Slider {...settings}>
         {mainBanners.map((banner) => (
           <img
             key={banner.id}
             src={banner.img}
             alt={banner.id}
-            className="rounded-2xl w-[1536px] h-[460px]"
+            className="rounded-2xl w-full xl:h-[460px] lg:h-[420px] md:h-[360px] sm:h-[300px] xs:h-[220px] h-[120px]"
           />
         ))}
       </Slider>
