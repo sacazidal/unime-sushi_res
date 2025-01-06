@@ -10,7 +10,7 @@ const Navbar = () => {
         scroller.scrollTo(id, {
           duration: 1500,
           smooth: true,
-          //offset: -100,
+          offset: -80,
         });
       } else {
         setTimeout(scrollToElement, 100);
