@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <ul className="hidden lg:flex items-center justify-between border-t-2">
+      <ul className="hidden lg:flex items-center justify-between border-t-2 max-w-screen-xl mx-auto px-4 xl:px-0">
         {menuItems.map((item) => (
           <li
             className="font-montserrat font-semibold text-base "

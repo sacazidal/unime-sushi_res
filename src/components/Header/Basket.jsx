@@ -1,9 +1,11 @@
+import { useNavigate } from "react-router-dom";
 import { useCart } from "../../store/CartContext";
 import basketIcon from "/img/icons/basket.svg";
 import mediaBasketIcon from "/img/icons/mediaBasketIcon.svg";
 import rublesIcon from "/img/icons/rubles.svg";
 
 const Basket = () => {
+  const navigate = useNavigate();
   const { totalItems, totalPrice } = useCart();
 
   const formatPrice = (price) => {
@@ -13,7 +15,10 @@ const Basket = () => {
   };
 
   return (
-    <button className="flex gap-4">
+    <button
+      className="flex gap-4"
+      onClick={() => navigate("/cart")}
+    >
       <div className="relative">
         <img
           src={basketIcon}
