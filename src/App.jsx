@@ -19,8 +19,7 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route index element={<Home />} />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="*" element={<Navigate to="/" />} />
+          <Route path="cart" element={<Cart />} />
         </Routes>
         <Footer />
       </CartProvider>
