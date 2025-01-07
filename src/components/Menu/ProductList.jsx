@@ -31,8 +31,21 @@ const ProductList = ({ items, sortType, title }) => {
     }));
   };
 
-  const handleAddToCart = (itemId, price) => {
-    addToCart(itemId, quantity[itemId] || 1, price);
+  const handleAddToCart = (
+    itemId,
+    price,
+    title,
+    itemImg,
+    weigth,
+  ) => {
+    addToCart(
+      itemId,
+      quantity[itemId] || 1,
+      price,
+      title,
+      itemImg,
+      weigth,
+    );
   };
 
   const sortedItems = [...items].sort((a, b) => {
@@ -124,7 +137,13 @@ const ProductList = ({ items, sortType, title }) => {
                     handleMouseLeave(item.id)
                   }
                   onClick={() =>
-                    handleAddToCart(item.id, item.price)
+                    handleAddToCart(
+                      item.id,
+                      item.price,
+                      item.title,
+                      item.itemImg,
+                      item.weigth,
+                    )
                   }
                 >
                   <img
