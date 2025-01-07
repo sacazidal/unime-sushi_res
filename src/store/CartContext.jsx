@@ -6,15 +6,56 @@ const CartContext = createContext();
 export const CartProvider = ({ children }) => {
   const [cart, setCart] = useState({});
 
-  const addToCart = (itemId, quantity, price) => {
+  const addToCart = (
+    itemId,
+    quantity,
+    price,
+    title,
+    itemImg,
+    weigth,
+  ) => {
     setCart((prevCart) => ({
       ...prevCart,
       [itemId]: {
         quantity:
           (prevCart[itemId]?.quantity || 0) + quantity,
         price: price,
+        title: title,
+        itemImg: itemImg,
+        weigth: weigth,
       },
     }));
+  };
+
+  const increaseQuantity = (itemId) => {
+    setCart((prevCart) => ({
+      ...prevCart,
+      [itemId]: {
+        ...prevCart[itemId],
+        quantity: prevCart[itemId].quantity + 1,
+      },
+    }));
+  };
+
+  const decreaseQuantity = (itemId) => {
+    setCart((prevCart) => ({
+      ...prevCart,
+      [itemId]: {
+        ...prevCart[itemId],
+        quantity: Math.max(
+          prevCart[itemId].quantity - 1,
+          1,
+        ),
+      },
+    }));
+  };
+
+  const removeFromCart = (itemId) => {
+    setCart((prevCart) => {
+      const newCart = { ...prevCart };
+      delete newCart[itemId];
+      return newCart;
+    });
   };
 
   const totalItems = Object.values(cart).reduce(
@@ -28,7 +69,15 @@ export const CartProvider = ({ children }) => {
 
   return (
     <CartContext.Provider
-      value={{ cart, addToCart, totalItems, totalPrice }}
+      value={{
+        cart,
+        addToCart,
+        removeFromCart,
+        increaseQuantity,
+        decreaseQuantity,
+        totalItems,
+        totalPrice,
+      }}
     >
       {children}
     </CartContext.Provider>
