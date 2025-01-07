@@ -22,7 +22,7 @@ const BtnFooter = ({ id, title }) => {
 
   return (
     <button
-      className="font-montserrat font-semibold text-sm lg:text-base"
+      className="font-montserrat font-semibold text-lg md:text-sm lg:text-base"
       onClick={() => handleScrollTo(id)}
     >
       {title}
