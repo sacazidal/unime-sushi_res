@@ -42,20 +42,46 @@ const BurgerMenu = ({ isOpen, toggleIsOpenMenu }) => {
           }`}
         >
           <div className="flex flex-col items-center gap-2 h-screen justify-center">
-            <BtnFooter id="роллы" title="Роллы" />
+            <BtnFooter
+              id="роллы"
+              title="Роллы"
+              onClick={toggleIsOpenMenu}
+            />
             <BtnFooter
               id="запеченные-роллы"
               title="Запеченные роллы"
+              onClick={toggleIsOpenMenu}
             />
             <BtnFooter
               id="горячие-роллы"
               title="Горячие роллы"
+              onClick={toggleIsOpenMenu}
             />
-            <BtnFooter id="сеты" title="Сеты" />
-            <BtnFooter id="закуски" title="Закуски" />
-            <BtnFooter id="вок" title="Вок" />
-            <BtnFooter id="пицца" title="Пицца" />
-            <BtnFooter id="напитки" title="Напитки" />
+            <BtnFooter
+              id="сеты"
+              title="Сеты"
+              onClick={toggleIsOpenMenu}
+            />
+            <BtnFooter
+              id="закуски"
+              title="Закуски"
+              onClick={toggleIsOpenMenu}
+            />
+            <BtnFooter
+              id="вок"
+              title="Вок"
+              onClick={toggleIsOpenMenu}
+            />
+            <BtnFooter
+              id="пицца"
+              title="Пицца"
+              onClick={toggleIsOpenMenu}
+            />
+            <BtnFooter
+              id="напитки"
+              title="Напитки"
+              onClick={toggleIsOpenMenu}
+            />
           </div>
         </div>
       </div>

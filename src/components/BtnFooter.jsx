@@ -1,7 +1,7 @@
 import { scroller } from "react-scroll";
 
 // eslint-disable-next-line react/prop-types
-const BtnFooter = ({ id, title }) => {
+const BtnFooter = ({ id, title, onClick }) => {
   const handleScrollTo = (id) => {
     const scrollToElement = () => {
       const targetElement = document.getElementById(id);
@@ -12,6 +12,9 @@ const BtnFooter = ({ id, title }) => {
           smooth: true,
           //offset: -100,
         });
+      }
+      if (onClick) {
+        setTimeout(onClick, 350);
       } else {
         setTimeout(scrollToElement, 100);
       }
