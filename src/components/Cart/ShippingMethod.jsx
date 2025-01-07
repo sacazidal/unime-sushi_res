@@ -8,9 +8,9 @@ const ShippingMethod = () => {
   };
 
   return (
-    <div className="flex items-center justify-between gap-3">
+    <div className="flex items-center justify-between gap-3 mb-6">
       <button
-        className={`font-montserrat font-semibold text-base text-center px-5 py-3 border border-orange-600 rounded-xl ${
+        className={`font-montserrat font-semibold text-base text-center px-5 py-2 border border-orange-600 rounded-xl ${
           isActive === "delivery"
             ? "bg-orange-600 text-white"
             : ""
@@ -20,7 +20,7 @@ const ShippingMethod = () => {
         Доставка
       </button>
       <button
-        className={`font-montserrat font-semibold text-base text-center px-5 py-3 border border-orange-600 rounded-xl ${
+        className={`font-montserrat font-semibold text-base text-center px-5 py-2 border border-orange-600 rounded-xl ${
           isActive === "pickup"
             ? "bg-orange-600 text-white"
             : ""
