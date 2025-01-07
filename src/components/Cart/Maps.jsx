@@ -30,8 +30,8 @@ const locations = [
 const Maps = () => {
   const mapRef = useRef(null);
   const { isLoaded, loadError } = useJsApiLoader({
-    googleMapsApiKey:
-      "AIzaSyAwsz7PauymkGpO_ic5ZI78cx6gzS0qRzk", // Замените на ваш API ключ
+    googleMapsApiKey: import.meta.env
+      .VITE_GOOGLE_MAPS_API_KEY, // Замените на ваш API ключ
     libraries: LIBRARIES, // Используем константу
   });
 
@@ -47,7 +47,7 @@ const Maps = () => {
         const map = new Map(mapRef.current, {
           center,
           zoom: 13,
-          mapId: "ВАШ_MAP_ID", // Укажите ваш Map ID
+          mapId: "active-guild-447114-a9", // Укажите ваш Map ID
         });
 
         locations.forEach((location) => {

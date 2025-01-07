@@ -11,7 +11,7 @@ const OrderItems = () => {
     increaseQuantity,
     decreaseQuantity,
   } = useCart();
-  console.log(cart);
+
   return (
     <div className="mb-4">
       <div className="flex flex-col">
