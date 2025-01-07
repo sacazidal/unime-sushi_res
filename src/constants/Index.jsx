@@ -3,13 +3,13 @@ import { FaYoutube, FaVk } from "react-icons/fa";
 
 import { v4 } from "uuid";
 
-import BannerImg1 from "/img/BannerWrap/banner1.png";
-import BannerImg2 from "/img/BannerWrap/banner2.png";
-import BannerImg3 from "/img/BannerWrap/banner3.jpg";
-import BannerImg4 from "/img/BannerWrap/banner4.jpg";
-import BannerImg5 from "/img/BannerWrap/banner5.jpg";
+import BannerImg1 from "/img/BannerWrap/banner1.webp";
+import BannerImg2 from "/img/BannerWrap/banner2.webp";
+import BannerImg3 from "/img/BannerWrap/banner3.webp";
+import BannerImg4 from "/img/BannerWrap/banner4.webp";
+import BannerImg5 from "/img/BannerWrap/banner5.webp";
 
-import bgImg from "/img/card.png";
+import bgImg from "/img/card.webp";
 
 import rublesIcon from "/img/icons/rubles.svg";
 import pastCurrencyIcon from "/img/icons/pastCurrency.svg";
