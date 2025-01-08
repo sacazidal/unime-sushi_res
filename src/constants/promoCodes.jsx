@@ -1,6 +1,6 @@
 import { v4 } from "uuid";
 
-export const promoCodes = [
+const PromoCodes = [
   {
     id: v4(),
     title: "Получи скидку 10% на весь заказ",
@@ -26,3 +26,5 @@ export const promoCodes = [
     discount: 0.05,
   },
 ];
+
+export default PromoCodes;
