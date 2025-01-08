@@ -6,7 +6,7 @@ import TimeDelivery from "../Cart/TimeDelivery";
 
 const Left = () => {
   return (
-    <div className="flex flex-col w-full px-10 md:px-0">
+    <div className="flex flex-col w-full px-1 md:px-0">
       <div className="flex flex-col">
         <div className="flex flex-col">
           <CartTitle title={"Контактные данные"} />

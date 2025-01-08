@@ -16,7 +16,7 @@ const FormInput = ({ type, name, id, placeholder }) => {
       name={name}
       id={id}
       placeholder={placeholder}
-      className="w-full p-3 border-2 rounded-2xl border-gray-300 placeholder:font-montserrat placeholder:font-medium placeholder:text-xs font-montserrat font-medium text-xs flex placeholder:justify-center"
+      className="w-full p-2 md:p-3 border-2 rounded-2xl border-gray-300 placeholder:font-montserrat placeholder:font-medium placeholder:text-xxs md:placeholder:text-xs font-montserrat font-medium text-xs flex placeholder:justify-center"
       maxLength={name === "phoneNumber" ? 11 : undefined}
       onChange={handleInputChange}
     />

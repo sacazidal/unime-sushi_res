@@ -1,6 +1,5 @@
 import {
   BrowserRouter,
-  Navigate,
   Route,
   Routes,
 } from "react-router-dom";
@@ -19,7 +18,7 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route index element={<Home />} />
-          <Route path="cart" element={<Cart />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
         <Footer />
       </CartProvider>

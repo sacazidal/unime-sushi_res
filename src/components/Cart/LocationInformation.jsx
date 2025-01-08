@@ -11,7 +11,7 @@ const LocationInformation = () => {
           placeholder={"Улица, дом, корпус"}
         />
       </div>
-      <div className="flex justify-between gap-5">
+      <div className="flex justify-start md:justify-between gap-2">
         <FormInput
           type={"text"}
           name={""}

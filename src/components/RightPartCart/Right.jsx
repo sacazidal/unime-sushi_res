@@ -6,7 +6,7 @@ import PlaceAnOrder from "./PlaceAnOrder";
 const Right = () => {
   return (
     <div className="flex flex-col w-full gap-10">
-      <div className="flex flex-col w-full border-b rounded-b-[30px] pb-12 px-10 md:px-5 lg:px-10">
+      <div className="flex flex-col w-full border-b rounded-b-[30px] pb-12 px-0 lg:px-10">
         <CartTitle title={"Ваш заказ"} />
         <div className="">
           <OrderItems />
@@ -15,7 +15,7 @@ const Right = () => {
           <PlaceAnOrder />
         </div>
       </div>
-      <div className="flex flex-col w-full border-b rounded-b-[30px] min-h-40 px-10 md:px-5 lg:px-10">
+      <div className="flex flex-col w-full border-b rounded-b-[30px] min-h-40 px-0 lg:px-10">
         <CartTitle title={"Промокод"} />
         <div className="flex gap-5">
           <FormInput
@@ -24,7 +24,7 @@ const Right = () => {
             name={""}
             id={""}
           />
-          <button className="font-montserrat font-semibold text-base text-white bg-orange-600 px-3 py-2 rounded-lg">
+          <button className="font-montserrat font-semibold text-xs md:text-base text-white bg-orange-600 py-1 md:px-3 px-1 md:py-2 rounded-lg">
             Применить
           </button>
         </div>

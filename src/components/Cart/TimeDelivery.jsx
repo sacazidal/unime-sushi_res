@@ -43,7 +43,7 @@ const TimeDelivery = () => {
   };
 
   return (
-    <div className="w-2/3 mb-6 flex gap-3">
+    <div className="w-3/4 md:w-2/3 mb-6 flex gap-5">
       <div className="">
         <DatePicker
           id="delivery-date"
@@ -53,7 +53,7 @@ const TimeDelivery = () => {
           maxDate={maxDate}
           dateFormat="d MMMM yyyy"
           placeholderText="Выберите дату"
-          className="block w-full p-3 border border-gray-300 rounded-md shadow-sm font-montserrat font-medium text-xs placeholder:text-xxs"
+          className="flex w-full p-3 border border-gray-300 rounded-md shadow-sm font-montserrat font-medium text-xxs md:text-xs placeholder:text-xxs"
           locale={ru} // Локализация на русский
         />
       </div>
@@ -68,7 +68,7 @@ const TimeDelivery = () => {
           timeIntervals={15}
           dateFormat="HH:mm"
           placeholderText="Выберите время"
-          className="block w-2/3 p-3 border border-gray-300 rounded-md shadow-sm font-montserrat font-medium text-xs placeholder:text-xxs"
+          className="block w-full md:w-2/3 p-3 border border-gray-300 rounded-md shadow-sm font-montserrat font-medium text-xxs md:text-xs placeholder:text-xxs"
           disabled={!selectedDate} // Время недоступно, пока не выбрана дата
           filterTime={isTimeDisabled} // Фильтр для времени
           locale={ru} // Локализация на русский
