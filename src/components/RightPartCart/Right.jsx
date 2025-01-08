@@ -3,7 +3,7 @@ import CartTitle from "../Cart/CartTitle";
 import FormInput from "../FormInput";
 import OrderItems from "./OrderItems";
 import PlaceAnOrder from "./PlaceAnOrder";
-import { promoCodes } from "../../constants/PromoCodes";
+import { PromoCodes } from "../../constants/PromoCodes";
 
 const Right = () => {
   const [promoCode, setPromoCode] = useState("");
@@ -11,7 +11,7 @@ const Right = () => {
   const [error, setError] = useState("");
 
   const handleApplyPromoCode = () => {
-    const validPromo = promoCodes.find(
+    const validPromo = PromoCodes.find(
       (item) => item.code === promoCode,
     );
 
